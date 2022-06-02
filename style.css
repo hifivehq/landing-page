@@ -85,8 +85,8 @@
 :root {
   --font-family: "Quicksand", sans-serif;
   --primary:  #6957dd;
-  --primary-dark: #5642D6;
-  --primary-light: #3D328A ;
+  --primary-dark: #513cd6;
+  --primary-light: #ffffff ;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
   --accent-light: #dff9f8;
@@ -511,7 +511,7 @@ p {
 .navbar-area.navbar-nine .navbar .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: var(--white);
+  background-color: var(--primary);
   margin: 5px 0;
   display: block;
   position: relative;
@@ -546,7 +546,7 @@ p {
     top: 116%;
     left: 0;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--white);
     z-index: 8;
     padding: 10px 16px;
   }
@@ -568,11 +568,11 @@ p {
   display: flex;
   align-items: center;
   padding: 11px 16px;
-  color: var(--white);
+  color: var(--primary);
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
-  font-weight: 500;
+  font-weight: 800;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -812,12 +812,12 @@ p {
   font-size: 22px;
   position: relative;
   overflow: hidden;
-  color: var(--white);
+  color: var(--primary);
   height: 40px;
   width: 40px;
   line-height: 40px;
   text-align: center;
-  border: 1px solid rgba(238, 238, 238, 0.425);
+  /* border: 1px solid rgba(29, 28, 28, 0.425); */
   border-radius: 50%;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1488,7 +1488,9 @@ p {
   color: var(--dark-3);
 }
 
-
+p.subhead {
+  color: var(--white);
+}
 
 
 /* ===== Buttons Css ===== */
