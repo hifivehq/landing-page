@@ -84,9 +84,12 @@
 ===========================*/
 :root {
   --font-family: "Quicksand", sans-serif;
+  --hero-primary: #ffffff;
+  --hero-text-secondary: #000000;
+  --hero-button: #5788dd;
   --primary:  #6957dd;
   --primary-dark: #513cd6;
-  --primary-light: #ffffff ;
+  --primary-light: #ffffff;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
   --accent-light: #dff9f8;
@@ -992,7 +995,7 @@ p {
 .header-eight {
   position: relative;
   padding:160px 0 100px 0;
-  background: var(--primary);
+  background: var(--hero-primary);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-eight {
@@ -1021,7 +1024,7 @@ p {
 }
 .header-eight .header-content h1 {
   font-weight: 700;
-  color: var(--white);
+  color: var(--hero-text-secondary);
   text-shadow: 0px 3px 8px #00000017;
   text-transform: capitalize;
 }
@@ -1042,7 +1045,7 @@ p {
 }
 .header-eight .header-content p {
   margin-top: 30px;
-  color: var(--white);
+  color: var(--hero-text-secondary);
   opacity: 0.7;
 }
 .header-eight .button {
@@ -1050,15 +1053,15 @@ p {
 }
 .header-eight .primary-btn {
   margin-right: 12px;
-  background-color: var(--white);
-  color: var(--primary);
+  background-color: var(--primary);
+  color: var(--hero-primary);
   border: 1px solid transparent;
 }
-.header-eight .primary-btn:hover {
-  background-color: transparent;
-  color: var(--white);
-  border-color: var(--white);
-}
+/* .header-eight .primary-btn:hover {
+  background-color: var(--hero-text-secondary);
+  color: var(--hero-primary);
+  border-color: var(--primary);
+} */
 .header-eight .video-button {
   display: inline-flex;
   align-items: center;
@@ -1071,12 +1074,12 @@ p {
 .header-eight .video-button .text {
   display: inline-block;
   margin-left: 15px;
-  color: var(--white);
+  color: var(--primary);
   font-weight: 600;
 }
 .header-eight .video-button .icon-btn {
-  background: var(--white);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--hero-primary);
 }
 
 /*===========================
